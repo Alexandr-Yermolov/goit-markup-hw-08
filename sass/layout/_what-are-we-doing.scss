@@ -1,5 +1,5 @@
 .what-are-we-doing {
-  padding-bottom: var(--section-pb);
+  padding-bottom: var(--section-pb-mob);
 }
 
 .what-are-we-doing__title {
@@ -9,6 +9,7 @@
 .services-list {
   flex-wrap: wrap;
   display: flex;
+  justify-content: center;
   margin-left: -30px;
   margin-top: -30px;
 }
@@ -44,4 +45,10 @@
 
   color: #ffffff;
   background: rgba(47, 48, 58, 0.8);
+}
+
+@media screen and (max-width: 1199.98px) {
+  .what-are-we-doing {
+    display: none;
+  }
 }
