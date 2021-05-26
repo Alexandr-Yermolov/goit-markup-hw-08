@@ -32,8 +32,8 @@
 .portfolio-section {
   display: flex;
   flex-direction: column;
-  padding-top: var(--section-pt);
-  padding-bottom: var(--section-pb);
+  padding-top: var(--section-pt-mob);
+  padding-bottom: var(--section-pb-mob);
 }
 
 .filter {

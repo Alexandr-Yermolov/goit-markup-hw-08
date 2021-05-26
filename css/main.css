@@ -102,10 +102,6 @@ img {
     display: flex;
     align-items: baseline;
   }
-  header .container {
-    display: flex;
-    align-items: center;
-  }
 }
 
 .current::after {
