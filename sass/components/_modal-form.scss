@@ -78,13 +78,18 @@
 .modal-form-check-desc {
   display: flex;
   align-items: center;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.166;
   letter-spacing: 0.03em;
   margin-top: 20px;
   color: rgb(117, 117, 117);
   margin-left: auto;
   margin-right: auto;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .modal-form-check-desc::before {
