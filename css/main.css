@@ -642,7 +642,7 @@ img {
 .hero {
   background-color: #2f303a;
   text-align: center;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/geroy/geroy.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./images/geroy/hero-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 1600px;
@@ -681,15 +681,37 @@ img {
   color: var(--main-color-white);
 }
 
+@media screen and (max-width: 767.98px) and (min-device-pixel-ratio: 2), screen and (max-width: 767.98px) and (min-resolution: 192dpi), screen and (max-width: 767.98px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/geroy/hero-mobile@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./images/geroy/hero-tablet.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199.98px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (max-width: 1199.98px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (max-width: 1199.98px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/geroy/hero-tablet@2x.jpg);
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .hero {
-    background-color: #2f303a;
-    text-align: center;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/geroy/geroy.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 1600px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/geroy/hero-desktop.jpg);
   }
+}
+
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/geroy/hero-desktop@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px) {
   .hero__section {
     padding-top: 200px;
     padding-bottom: 200px;
