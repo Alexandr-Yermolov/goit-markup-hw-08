@@ -460,13 +460,13 @@ img {
     display: flex;
     position: fixed;
     flex-wrap: wrap;
-    align-content: space-between;
+    flex-direction: column;
+    justify-content: space-between;
     top: 0;
     left: 50%;
     width: 100vw;
-    max-width: 480px;
+    max-width: 767px;
     height: 100vh;
-    max-height: 796px;
     padding: 48px 40px;
     background-color: var(--bg-color-white);
     transform: translateY(-100%) translateX(-50%);
@@ -1297,6 +1297,7 @@ img {
     flex-direction: column;
     margin: auto;
     align-items: center;
+    margin-top: 60px;
   }
   .footer__contact {
     display: flex;
@@ -1310,14 +1311,13 @@ img {
     display: flex;
     flex-direction: column;
     max-width: 450px;
+    margin-top: 60px;
   }
   .footer__title {
-    margin-top: 60px;
     display: block;
   }
   .input__text {
     text-align: center;
-    margin-top: 60px;
     display: block;
   }
   .input__email {
@@ -1333,9 +1333,6 @@ img {
     display: flex;
     align-items: center;
     margin-top: 20px;
-  }
-  .footer__title {
-    margin-top: 60px;
   }
   .footer-input-field {
     width: 100%;
