@@ -453,7 +453,6 @@ img {
   .mobile-menu {
     display: flex;
     position: fixed;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
     top: 0;
@@ -465,6 +464,7 @@ img {
     background-color: var(--bg-color-white);
     transform: translateY(-100%) translateX(-50%);
     transition: transform var(--animation);
+    overflow: scroll;
   }
   .mobile-menu-z {
     z-index: 10;
