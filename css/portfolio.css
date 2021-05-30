@@ -417,6 +417,9 @@ img {
     width: 30px;
     height: 30px;
   }
+  .mobile-menu__list {
+    margin-bottom: 90px;
+  }
   .mobile-menu__item:not(:last-child) {
     margin-bottom: 32px;
   }
@@ -489,14 +492,23 @@ img {
   }
   .mobile-menu__socials-list {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
     margin-top: 64px;
   }
   .socials-link {
     display: flex;
     align-items: center;
+  }
+  .mobile-menu__socials-link {
+    display: flex;
+  }
+  .mobile-menu__socials-link:not(:last-child):after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 18px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: rgba(33, 33, 33, 0.2);
   }
 }
 
