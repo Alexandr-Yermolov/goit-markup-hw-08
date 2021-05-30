@@ -145,14 +145,12 @@ img {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-}
-
-.logo__first-part {
   color: var(--accent-color);
 }
 
-.logo__second-part {
-  color: var(--main-color-black);
+.header__logo {
+  padding-top: 26px;
+  padding-bottom: 26px;
 }
 
 .logo__light-theme {
@@ -166,8 +164,14 @@ img {
 @media screen and (min-width: 768px) {
   .header__logo {
     margin-right: 88px;
-    padding-top: 26px;
-    padding-bottom: 26px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header__logo {
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
   }
 }
 
@@ -304,7 +308,7 @@ img {
   left: 0;
   height: 100%;
   background: rgba(33, 150, 243, 0.9);
-  padding: 63px 24px 63px 24px;
+  padding: 20px 25px 20px 25px;
   transform: translateY(100%);
   opacity: 0;
   transition: transform var(--animation), opacity var(--animation);
@@ -314,6 +318,26 @@ img {
 .project-list__link:focus .project-link-wrapper__overlay {
   transform: translateY(0%);
   opacity: 1;
+}
+
+@media screen and (min-width: 480px) {
+  .project-link-wrapper__overlay {
+    padding: 77px 24px 77px 24px;
+    font-size: 18px;
+    line-height: 1.55;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .project-link-wrapper__overlay {
+    padding: 49px 24px 49px 24px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .project-link-wrapper__overlay {
+    padding: 63px 24px 63px 24px;
+  }
 }
 
 @media screen and (max-width: 767.98px) {
@@ -438,7 +462,6 @@ img {
     background-color: var(--bg-color-white);
     transform: translateY(-100%) translateX(-50%);
     transition: transform var(--animation);
-    overflow: scroll;
   }
   .mobile-menu-z {
     z-index: 10;
@@ -506,9 +529,6 @@ img {
   }
   .contact__link {
     display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
     font-size: 14px;
     font-weight: 500;
@@ -601,9 +621,6 @@ img {
   }
   .contact__link {
     display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
     font-weight: 500;
     font-size: 14px;

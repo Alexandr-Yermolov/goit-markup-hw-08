@@ -92,7 +92,7 @@
     background-color: var(--bg-color-white);
     transform: translateY(-100%) translateX(-50%);
     transition: transform var(--animation);
-    overflow: scroll;
+    // overflow: scroll;
   }
 
   .mobile-menu-z {
@@ -190,9 +190,6 @@
 
   .contact__link {
     display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
     @include font(14px, 500, 14px);
     letter-spacing: 0.02em;
@@ -305,9 +302,6 @@
 
   .contact__link {
     display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
     font-weight: 500;
     font-size: 14px;
