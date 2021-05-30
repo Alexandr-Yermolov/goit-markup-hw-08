@@ -125,7 +125,7 @@ img {
   .current::after {
     display: inline-block;
     position: absolute;
-    bottom: -34px;
+    bottom: -2px;
     left: 0;
     content: "";
     width: 100%;
@@ -388,6 +388,17 @@ img {
   background-color: var(--bg-color-white);
 }
 
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.header__link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: var(--main-color);
+}
+
 @media screen and (max-width: 767px) {
   .menu {
     display: none;
@@ -507,10 +518,6 @@ img {
     display: flex;
     align-items: center;
   }
-  .menu {
-    display: flex;
-    align-items: center;
-  }
   .menu__link {
     font-size: 14px;
     font-weight: 500;
@@ -546,6 +553,12 @@ img {
   .contact__link:hover svg {
     fill: var(--accent-color);
   }
+  .contact__link-table-email {
+    padding-top: 21px;
+  }
+  .contact__link-table-tel {
+    padding-bottom: 21px;
+  }
   .contact-svg-logo {
     margin-right: 10px;
     transition: fill var(--animation);
@@ -580,10 +593,6 @@ img {
     display: flex;
     align-items: center;
   }
-  .menu {
-    display: flex;
-    align-items: center;
-  }
   .menu__link {
     font-weight: 500;
     font-size: 14px;
@@ -592,11 +601,6 @@ img {
   }
   .menu__link:hover, .menu__link:focus {
     color: var(--accent-color);
-  }
-  .header__link {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    color: var(--main-color);
   }
   .header__link_animation {
     transition: color var(--animation);
