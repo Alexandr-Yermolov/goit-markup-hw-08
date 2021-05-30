@@ -582,10 +582,10 @@ img {
     fill: var(--accent-color);
   }
   .contact__link-table-email {
-    padding-top: 21px;
+    padding-top: 20px;
   }
   .contact__link-table-tel {
-    padding-bottom: 21px;
+    padding-bottom: 20px;
   }
   .contact-svg-logo {
     margin-right: 10px;
