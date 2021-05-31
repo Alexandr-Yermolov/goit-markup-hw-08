@@ -314,7 +314,6 @@ img {
   transform: translateY(100%);
   opacity: 0;
   transition: transform var(--animation), opacity var(--animation);
-  overflow: scroll;
 }
 
 .project-list__link:hover .project-link-wrapper__overlay,
